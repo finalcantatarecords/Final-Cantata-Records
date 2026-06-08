@@ -1,10 +1,113 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Final Cantata Records</title>
-  </head>
-  <body>
-      <h1>Welcome to Final Cantata Records</h1>
-    <p>This is the beginning of our official website.</p>
-  </body>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Final Cantata Records</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0b0b0f;
+    color: white;
+}
+
+header {
+    background: url('https://images.unsplash.com/photo-1511379938547-c1f69419868d') center/cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+header h1 {
+    background: rgba(0,0,0,0.6);
+    padding: 20px;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px;
+    background: #111;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid #333;
+}
+
+nav a:hover {
+    background: white;
+    color: black;
+}
+
+section {
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.card {
+    background: #1a1a1f;
+    padding: 15px;
+    border: 1px solid #333;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    font-size: 12px;
+    opacity: 0.7;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>FINAL CANTATA RECORDS</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Music</a>
+    <a href="#">Archive</a>
+    <a href="#">Store</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section>
+    <h2>Welcome</h2>
+    <p>This is the official hub for Final Cantata Records — releases, archives, and transmissions from the label.</p>
+</section>
+
+<section>
+    <h2>Releases</h2>
+
+    <div class="grid">
+        <div class="card">Album 1</div>
+        <div class="card">Album 2</div>
+        <div class="card">Album 3</div>
+    </div>
+</section>
+
+<footer>
+    © Final Cantata Records
+</footer>
+
+</body>
 </html>
