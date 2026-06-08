@@ -1,1 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Final Cantata Records Store</title>
 
+<style>
+@font-face {
+    font-family: "Metropolitaines";
+    src: url("Metropolitaines-Regular.otf")
+        format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "EnglishTowne";
+    src: url("EnglishTowne.ttf")
+        format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Seagram";
+    src: url("Seagram-tfb.ttf")
+        format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+    
+body {
+    margin: 0;
+    font-family: "Metropolitaines", Arial, sans-serif;
+     background-image: url("assets/fcr-bg2.png");
+            background-size: 1400px;
+            background-position: center top;
+            background-repeat: repeat-y;
+            background-color: black;
+    color: white;
+}
+
+        header {
+            padding: 40px;
+            text-align: center;
+            border-bottom: 1px solid #222;
+            background-color: black;
+        }
+
+header h1 {
+    background: rgba(0,0,0,0.6);
+    padding: 20px;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px;
+    background: #111;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid #333;
+}
+
+nav a:hover {
+    background: white;
+    color: black;
+}
+
+section {
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.card {
+    font-family: "Seagram", Arial, sans-serif;
+    background: #1a1a1f;
+    padding: 15px;
+    border: 1px solid #333;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+.band-logo {
+width: 100%;
+max-width: 1200px;
+height: auto;
+display: block;
+margin: 0 auto;
+}
+    
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <img src="assets/FCR-Banner.jpg"
+        class="band-logo">
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="inside_rtc.html">Rye Town's Creatures</a>
+    <a href="#">Memorex</a>
+    <a href="#">Taurean J</a>
+    <a href="#">Store</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section>
+    <h2>Welcome to Final Cantata Records</h2>
+    <p>
+        Official FINAL CANTATA RECORDS webstore.
+    </p>
+</section>
+
+<footer>
+    © Final Cantata Records
+</footer>
+
+</body>
+</html>
