@@ -1,1 +1,146 @@
-1
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Memorex</title>
+
+    <style>
+@font-face {
+    font-family: "EnglishTowne";
+    src: url("EnglishTowne.ttf")
+        format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Seagram";
+    src: url("Seagram-tfb.ttf")
+        format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+        
+        body {
+            margin: 0;
+            font-family: "EnglishTowne", Arial, sans-serif;
+
+            background-image: url("assets/rtc-bg3.png");
+            background-size: 1400px;
+            background-position: center top;
+            background-repeat: repeat-y;
+            background-color: black;
+
+            margin: 0;
+            color: white   
+        }
+
+        header {
+            padding: 40px;
+            text-align: center;
+            border-bottom: 1px solid #222;
+        }
+
+        section {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: rgba(0, 0, 0, 0.0);
+            color: white;
+            padding: 20px;
+        }
+
+        h1 {
+            font-family: "Seagram", Arial, sans-serif;
+            color: red;
+            font-size: 72px;
+        }
+        h2 {
+            font-family: "EnglishTowne", Arial, sans-serif;
+            font-size: 32px;
+            color: #e32c14;
+        }
+
+        p {
+            font-size: 24px !important;
+            color: #F2EDC4;
+        }
+        .band-logo {
+            width: 100%;
+            max-width: 1200px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        .player-row {
+            display: flex;
+            gap: 20px;
+        }
+
+    .label-footer {
+    text-align: center;
+    margin: 40px 0 20px 0;
+}
+
+    .footer-logo {
+    width: 80px;
+    height: auto;
+    cursor: pointer;
+    opacity: 0.9;
+    transition: 0.2s;
+}
+
+    .footer-logo:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
+    </style>
+</head>
+
+<body>
+<div class="container">
+    
+<header>
+    <img src="assets/memorex_banner.jpg"
+        class="band-logo">
+</header>
+
+<section>
+    <h2>About</h2>
+    <p>Rye Town's Creatures (also known as Rye Town Coven and abbreviated to RTC) are a gothic horror rap-rock band 
+      originally from the UK, but later expanded to featuring band members from other parts of the world. The band chose 
+      their name on the 6th June 2006, which by complete coincidence was a 666 synchronicity the band often used in their 
+      early marketting material. In 2012, the RTC disbanded with a brief revival attempt in 2016 with a new lineup, then
+      went quiet again until 2022. In 2026, the RTC returned with a new album and the lineup that was intended for the
+      2016 revival. On June 6th 2026, on the 20th anniversary of their original formation, the RTC released their first
+      album since 2012, a brand new concept album marketted as a gothic rap-rock opera: "Banquet Of Witches".</p>
+</section>
+
+<section>
+    <h2>Releases</h2>
+    <div class="player-row">
+    <iframe style="border: 0; width: 200px; height: 342px;" src="https://bandcamp.com/EmbeddedPlayer/album=1293643379/size=large/bgcol=333333/linkcol=e32c14/tracklist=false/transparent=true/" seamless><a href="https://ryetownscreatures.bandcamp.com/album/banquet-of-witches">Banquet Of Witches by Rye Town&#39;s Creatures</a></iframe>
+    <iframe style="border: 0; width: 200px; height: 342px;" src="https://bandcamp.com/EmbeddedPlayer/album=1316160858/size=large/bgcol=333333/linkcol=e32c14/tracklist=false/transparent=true/" seamless><a href="https://ryetownscreatures.bandcamp.com/album/return-to-rye">Return To Rye by Rye Town&#39;s Creatures</a></iframe>
+    <iframe style="border: 0; width: 200px; height: 342px;" src="https://bandcamp.com/EmbeddedPlayer/album=1880906923/size=large/bgcol=333333/linkcol=e32c14/tracklist=false/transparent=true/" seamless><a href="https://ryetownscreatures.bandcamp.com/album/the-dawning">The Dawning by Rye Town&#39;s Creatures</a></iframe>
+    <iframe style="border: 0; width: 200px; height: 342px;" src="https://bandcamp.com/EmbeddedPlayer/album=3667114805/size=large/bgcol=333333/linkcol=e32c14/tracklist=false/transparent=true/" seamless><a href="https://ryetownscreatures.bandcamp.com/album/the-witching-hour">The Witching Hour by Rye Town&#39;s Creatures</a></iframe>       
+    </div>
+    <div style="height: 20px;"></div>
+    <div class="player-row">
+    <iframe style="border: 0; width: 200px; height: 342px;" src="https://bandcamp.com/EmbeddedPlayer/album=1138038831/size=large/bgcol=333333/linkcol=e32c14/tracklist=false/transparent=true/" seamless><a href="https://ryetownscreatures.bandcamp.com/album/introducing-rtc">Introducing... RTC by Rye Town&#39;s Creatures</a></iframe>     
+    </div>
+</section>
+</div>
+
+    <div class="label-footer">
+
+    <a href="index.html">
+        <img src="assets/FCRLOGO2026.png" alt="Label Home" class="footer-logo">
+    </a>
+
+</div>
+</body>
+</html>
