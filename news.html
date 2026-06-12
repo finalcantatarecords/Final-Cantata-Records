@@ -1,3 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Memorex</title>
+
+    <style>
+@font-face {
+    font-family: "OldEnglishBoots";
+    src: url("Old_Englished_Boots.ttf")
+        format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Seagram";
+    src: url("Seagram-tfb.ttf")
+        format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+        
+        body {
+            margin: 0;
+            font-family: "OldEnglishBoots", Arial, sans-serif;
+
+            background-image: url("assets/sotnbg2.png");
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+            background-position: center top;
+            background-repeat: no-repeat;
+            background-color: black;
+
+            margin: 0;
+            color: white   
+        }
+
+        header {
+            padding: 40px;
+            text-align: center;
+            border-bottom: 1px solid #222;
+        }
+
+        section {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: rgba(0, 0, 0, 0.80);
+            color: white;
+            padding: 20px;
+        }
+
+        h1 {
+            font-family: "Seagram", Arial, sans-serif;
+            color: silver;
+            font-size: 72px;
+        }
+        h2 {
+            font-family: "OldEnglishBoots", Arial, sans-serif;
+            font-size: 32px;
+            color: #E6D8A8;
+        }
+
+        p {
+            font-size: 24px !important;
+            color: silver;
+        }
+        .band-logo {
+            width: 100%;
+            max-width: 1200px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        .player-row {
+            display: flex;
+            gap: 20px;
+        }
+
+    .label-footer {
+    text-align: center;
+    margin: 40px 0 20px 0;
+}
+
+    .footer-logo {
+    width: 80px;
+    height: auto;
+    cursor: pointer;
+    opacity: 0.9;
+    transition: 0.2s;
+}
+
+    .footer-logo:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
+
 .news-item {
   margin-bottom: 40px;
   padding: 20px;
